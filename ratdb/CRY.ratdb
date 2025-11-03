@@ -5,8 +5,8 @@
 
 "returnNeutrons": true,
 "returnProtons": true,
-"returnGammas": false,
-"returnElectrons": false,
+"returnGammas": true,
+"returnElectrons": true,
 "returnMuons": true,
 "returnPions": true,
 
@@ -16,5 +16,5 @@
 "altitude": 0,
 "latitude": 0,
 "date": "7-1-2022",
-"subboxLength": 10,
+"subboxLength": 1,
 }
