@@ -5,8 +5,8 @@
 
 "returnNeutrons": true,
 "returnProtons": true,
-"returnGammas": false,
-"returnElectrons": false,
+"returnGammas": true,
+"returnElectrons": true,
 "returnMuons": true,
 "returnPions": true,
 
