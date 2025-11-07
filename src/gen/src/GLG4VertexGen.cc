@@ -749,6 +749,12 @@ void GLG4VertexGen_HEPEvt::GeneratePrimaryVertex(G4Event *argEvent, G4ThreeVecto
       continue;
     }
 
+    // Dont simulate final state nuclei and neutrons etc.. they have enrgies of GeV. Just interested in electrons and
+    // gammas Only simulate electrons... assume gammas wont trigger
+    if (IDHEP != 11) {
+      continue;
+    }
+
     // create G4PrimaryParticle object
     // create an "ion" (nucleus) if IDHEP>9800000
     G4PrimaryParticle *particle;
