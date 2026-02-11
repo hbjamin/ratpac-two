@@ -49,7 +49,7 @@
 //   Photocathode optics for the R11065 tubes
 {
 "name": "OPTICS",
-"index": "photocathode_R11065",
+"index": "photocathode_R11065", // This is really the efficiency(wl) for the XP4312 
 "run_range" : [0, 0],
 "photocathode": 1,
 
